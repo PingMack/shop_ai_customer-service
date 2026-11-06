@@ -1,16 +1,18 @@
 [project]
-name = "customer-servicer"
+name = "customer-service-1020"
 version = "0.1.0"
 description = "Add your description here"
-authors = [
-    { name = "徐路平", email = "“1356863983@qq.com”" }
-]
 requires-python = ">=3.12"
-dependencies = []
-
-[project.scripts]
-customer-servicer = "customer_servicer:main"
-
-[build-system]
-requires = ["uv_build>=0.13.1,<0.14.0"]
-build-backend = "uv_build"
+dependencies = [
+    "aiomysql>=0.3.2",
+    "cryptography>=46.0.7",
+    "fastapi>=0.136.0",
+    "httpx>=0.28.1",
+    "jinja2>=3.1.6",
+    "langchain>=1.2.15",
+    "langchain-openai>=1.1.14",
+    "openai>=2.32.0",
+    "pydantic-settings>=2.13.1",
+    "sqlalchemy>=2.0.49",
+    "uvicorn>=0.44.0",
+]
