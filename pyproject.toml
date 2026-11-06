@@ -1,0 +1,16 @@
+[project]
+name = "customer-servicer"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "徐路平", email = "“1356863983@qq.com”" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+customer-servicer = "customer_servicer:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
